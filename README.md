@@ -6,4 +6,6 @@ The Victoria Brain Injury Society (VBIS) has a dynamic app for their clients, ho
 
 This portal will be a website and be hosted entirely through Firebase by Google, conveniently the same hosting service for the VBIS database.
 
+I also uploaded pictures under the folder with a jarring title. I will be referencing those images in the future. Check em out
+
 ... More to come.
