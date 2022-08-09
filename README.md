@@ -9,7 +9,7 @@ This portal will be a website and be hosted entirely through Firebase by Google,
 I also uploaded pictures under the folder with a jarring title. I will be referencing those images in the future. Check em out
 
 
-#Firebase Local Hosting SetUp
+# Firebase Local Hosting SetUp
 
 In the directory of the local repository, write in the terminal:
 
