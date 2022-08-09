@@ -13,7 +13,9 @@ I also uploaded pictures under the folder with a jarring title. I will be refere
 
 In the directory of the local repository, write in the terminal:
 
-npm install -g firebase npm install -g firebase-tools
+npm install -g firebase 
+npm install -g firebase-tools
+firebase login
 
 And to locally host the server:
 
