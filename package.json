@@ -1,0 +1,15 @@
+{
+  "name": "staffportal",
+  "version": "0.1.0",
+  "description": "A portal for staff members at VBIS to update their app's information realtime.",
+  "main": "./public/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode=development"
+  },
+  "author": "Marcus Rinzsch",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "9.9.1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": false,
+    "about": {
+      "aboutVBIS": {
+        ".write": "newData.val() != null",
+        ".validate": "newData.isString()"
+      },
+      "staff": {
+        "$staff": {
+          ".validate": "newData.isString()"
+        }
+      }
+    },
+    "contact": {
+      "$contactMethods": {
+        ".write": "newData.val() != null",
+        ".validate": "newData.isString()"
+      }
+    },
+    "programs": {
+      "$programs": {
+        "name": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isString()"
+        },
+        "description": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isString() && newData.val().length <= 250"
+        },
+        "inperson": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isBoolean()"
+        },
+        "online": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isBoolean()"
+        },
+        "start": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isNumber()"
+        },
+        "end": {
+          ".write": "newData.val() != null",
+          ".validate": "newData.isNumber()"
+        }
+      }
+    }
+  }
+}
